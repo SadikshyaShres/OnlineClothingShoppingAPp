@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Content_Dashboard"></activity>
+        <activity android:name=".fragment.SignUpFragment" />
+        <activity android:name=".fragment.LoginFragment" />
+        <activity android:name=".model.Items" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".DahboardActivity" />
+        <activity android:name=".AddItemActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
